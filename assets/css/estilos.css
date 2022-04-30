@@ -103,3 +103,27 @@ i{
         flex-direction: row;
     }
 }
+.contenedor{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: unset;
+    
+}
+@media(min-width:768px){
+    .contenedor{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+.contenedordos{
+    display:flex;
+    flex-direction: column;
+    align-items: unset;
+    
+}
+@media(min-width:768px){
+    .contenedordos{
+        flex-direction: row;
+        align-items: center;
+    }
+}
