@@ -141,12 +141,19 @@ i{
         background-position:center;
     }
 }
+@media(min-width:320px){
 .parrafo{
-    color:#72217F;
     font-weight:900;
+    font-size:2rem;
+    margin-bottom:0;
+    text-align: center;
 }
-@media(min-width:768px){
+}
+@media(min-width:992px){
     .parrafo{
         color:#00BFFF;
+        font-size:2.5rem;
+        margin-bottom:2rem;
+        text-align: left;
     }
 }
