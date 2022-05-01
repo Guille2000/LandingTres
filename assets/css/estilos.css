@@ -127,3 +127,21 @@ i{
         align-items: center;
     }
 }
+@media(min-width:320px){
+    .slider-area{
+        background-image:url(../img/hero/hero2.jpg);
+        background-repeat:no-repeat;
+        background-position-x:80%;
+    }
+}
+@media(min-width:768px){
+    .slider-area{
+        background-image:url(../img/hero/hero2.jpg);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+}
+.parrafo{
+    color:#76C6B0;
+    font-weight:900;
+}
