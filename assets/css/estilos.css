@@ -142,6 +142,11 @@ i{
     }
 }
 .parrafo{
-    color:#76C6B0;
+    color:#72217F;
     font-weight:900;
+}
+@media(min-width:768px){
+    .parrafo{
+        color:#00BFFF;
+    }
 }
